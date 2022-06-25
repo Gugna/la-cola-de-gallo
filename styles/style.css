@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+    background-color: #FFFFFE;
+}
+
+body {
+    max-width: 1000px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+.banner {
+    height: 200px;
+    width:auto;
+    background-color: #B3DEC1;
+}
+
+.menu-bar {
+    list-style-type: none;
+    height: 40px;
+    padding: 5px;
+    margin: 0px;
+    width: auto;
+    background: #DB995A;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.menu-item {
+    font-size: 20px;
+    background: none;
+    display: inline;
+    text-align: center;
+    flex: 1;
+}
+
+.menu-link {
+    background-color: #DB995A;
+    color: #654236;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.menu-link:hover {
+    padding: 9px;
+    background-color: #654236;
+    color: #DB995A;
+}
+
+.recipes {
+    height: 600px;
+    margin: auto;
+    border: 2px black;
+    background-color: #FFFFFE;
+}
