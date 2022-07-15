@@ -51,7 +51,7 @@ body {
 
 .recipes {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     flex-flow: row wrap;
     margin: 20px auto;
     background-color: #FFFFFE;
@@ -59,8 +59,8 @@ body {
 
 /* Cocktail Polaroid Effect */
 .cocktail {
-    width: 25%;
-    display:flex;
+    flex: 0 1 250px;
+    display: flex;
     flex-flow: column;
     box-shadow: 10px 10px 20px 1px #0F0F0F;
     margin-left: 5px;
