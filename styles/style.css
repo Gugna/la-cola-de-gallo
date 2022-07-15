@@ -6,7 +6,9 @@
 body {
     max-width: 1000px;
     font-family: Helvetica, Arial, sans-serif;
+    margin: auto;
 }
+
 .banner {
     height: 200px;
     width:auto;
@@ -31,7 +33,7 @@ body {
     background: none;
     display: inline;
     text-align: center;
-    flex: 1;
+    flex: auto;
 }
 
 .menu-link {
@@ -42,14 +44,39 @@ body {
 }
 
 .menu-link:hover {
-    padding: 9px;
+    padding: 9px 0px;
     background-color: #654236;
     color: #DB995A;
 }
 
 .recipes {
-    height: 600px;
-    margin: auto;
-    border: 2px black;
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+    margin: 20px auto;
     background-color: #FFFFFE;
+}
+
+/* Cocktail Polaroid Effect */
+.cocktail {
+    width: 25%;
+    display:flex;
+    flex-flow: column;
+    box-shadow: 10px 10px 20px 1px #0F0F0F;
+    margin-left: 5px;
+    margin-bottom: 20px;
+
+}
+
+.cocktail img {
+    width: 90%;
+    height: 200px;
+    margin: 10px auto;
+    object-fit: cover;
+}
+
+.cocktail p {
+    text-align: center;
+    font-style: italic;
+    padding: 20px 0;
 }
